@@ -1,6 +1,6 @@
-n = int(input())
-k = int(input())
+n = int(input('Enter student count: '))
+k = int(input('Enter apples count: '))
 # each student will receive apples
-print(k // n)
+print('Each student recieves ', k // n)
 # apples rest
-print(k % n)
+print('Apples rest is ', k % n)

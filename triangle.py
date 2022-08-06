@@ -1,4 +1,4 @@
-b = int(input())
-h = int(input())
+b = int(input('Enter cathetus: '))
+h = int(input('Enter height: '))
 # triangle area formula
-print(b * h / 2)
+print('Triangle area is ', b * h / 2)
